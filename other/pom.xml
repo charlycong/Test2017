@@ -2,15 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Test2017</artifactId>
+        <groupId>java.lisj</groupId>
+        <version>1.0</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>java.lisj</groupId>
-    <artifactId>Test2017</artifactId>
-    <version>1.0</version>
-    <modules>
-        <module>java8</module>
-        <module>other</module>
-    </modules>
-    <packaging>pom</packaging>
+    <artifactId>other</artifactId>
+
 
 </project>

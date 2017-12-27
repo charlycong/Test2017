@@ -17,6 +17,11 @@ public class OptionalTest {
 
     int a4;
 
+    int b_1;
+    int b_2;
+
+    int b_3;
+
     public static void main(String[] arg) {
 
         Optional<Optional<Optional<Long>>> optional = Optional.of(Optional.of(Optional.of(Long.parseLong("10"))));
