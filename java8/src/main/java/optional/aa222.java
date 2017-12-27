@@ -6,4 +6,9 @@ package optional;
  * @Date 2017-12-27 16:58
  */
 public class aa222 {
+
+
+
+
+    int aq;
 }
